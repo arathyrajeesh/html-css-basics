@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+}
+
+/* 1. Navbar */
+.navbar {
+    background-color: #1a202c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+/* 2. Hero Section */
+.hero {
+    background-color: #3182ce;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.hero img {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+/* 3. About Section */
+.about {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* 4. Events Section */
+.events {
+    background-color: #e2e8f0;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.events h2 {
+    text-align: center;
+}
+
+.events ul {
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* 5. Registration Section */
+.registration {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Inputs and Buttons */
+input {
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #38a169;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f855a;
+}
+
+/* 6. Contact Section */
+.contact {
+    background-color: #2d3748;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact a {
+    color: #63b3ed;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* 7. Footer */
+.footer {
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
